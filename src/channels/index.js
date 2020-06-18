@@ -1,8 +1,18 @@
-import Channel1 from "./Channel1.svelte";
-import Channel2 from "./Channel2.svelte";
-import Channel3 from "./Channel3.svelte";
-import Channel4 from "./Channel4.svelte";
+import Travel from "./Travel.svelte";
+import Gluttony from "./Gluttony.svelte";
+import Feelings from "./Feelings.svelte";
+import Empty from "./Empty.svelte";
 
-const channels = [Channel1, Channel2, Channel3, Channel4];
+const channels = [Travel, Gluttony, Feelings, Empty];
+shuffleArray(channels);
+
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
 
 export { channels };
