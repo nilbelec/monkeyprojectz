@@ -5,7 +5,7 @@
 <style>
   h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     position: absolute;
     top: 50px;
     left: 50px;

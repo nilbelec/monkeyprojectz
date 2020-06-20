@@ -2,9 +2,7 @@ import Travel from "./Travel.svelte";
 import Gluttony from "./Gluttony.svelte";
 import Feelings from "./Feelings.svelte";
 import Empty from "./Empty.svelte";
-
-const channels = [Travel, Gluttony, Feelings, Empty];
-shuffleArray(channels);
+import Tunnel from "./Tunnel.svelte";
 
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
@@ -14,5 +12,8 @@ function shuffleArray(array) {
         array[j] = temp;
     }
 }
+
+const channels = [Travel, Gluttony, Feelings, Empty, Tunnel];
+shuffleArray(channels);
 
 export { channels };

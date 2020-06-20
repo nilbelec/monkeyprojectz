@@ -18,4 +18,4 @@
 
 <TV bind:this={tv} />
 
-<button on:click={() => tv.changeChannel()}>[ change TV channel ]</button>
+<button on:click={() => tv.changeChannel()}>[ change input source ]</button>
