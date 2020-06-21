@@ -4,12 +4,15 @@
 
 <style>
   h1 {
+    font-family: "Roboto Mono", monospace;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 1rem;
     position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 30%;
+    top: 1rem;
+    left: 2rem;
+    width: 300px;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -19,6 +22,16 @@
 </style>
 
 <div class="screen">
-  <h1>_ projects _ not _ for _ human _ beings _</h1>
+  <h1>
+    projects
+    <br />
+    not
+    <br />
+    for
+    <br />
+    human
+    <br />
+    beings
+  </h1>
   <slot />
 </div>

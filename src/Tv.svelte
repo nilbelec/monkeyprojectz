@@ -35,6 +35,7 @@
     opacity: 0;
     z-index: 2;
     pointer-events: none;
+    animation: flicker 2s infinite;
   }
 
   .tv::before {
@@ -58,10 +59,6 @@
     z-index: 2;
     background-size: 100% 2px, 3px 100%;
     pointer-events: none;
-  }
-
-  .tv::after {
-    animation: flicker 1s infinite;
   }
 
   .tv.on > :global(.screen) {

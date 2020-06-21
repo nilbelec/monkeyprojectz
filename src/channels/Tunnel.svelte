@@ -81,4 +81,4 @@
 </script>
 
 <canvas id="canvas" />
-<span class="channel-title">_ Tunnel [] _</span>
+<span class="channel-title">_ Endless Birth [] _</span>
